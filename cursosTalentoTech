@@ -1,0 +1,21 @@
+ <html>
+<head>
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CURSOS EN TALENTO TECH</title>
+
+    <link rel="stylesheet" href="EstiLosss.css">
+</head>
+<body>
+    <table border="1px">
+        <tr><th>NOMBRE DE CURSOS</th></tr> 
+        <tr><td>Analisis de Datos</td></tr> <tr><img src="Analisis de Datos" height="100" width="140px" alt="cursotalentotech">
+        <tr><td>Programacion</td><td></td></tr><tr><img src="Programacion" height="100" width="140px" alt="cursotalentotech">
+        <tr><td>Blockchain</td><td></td></tr><tr><img src="Blockchain" >
+        <tr><td>Arquitectura en la Nube</td></tr><tr><img src="Arquitectura en la Nube" height="100" width="140px" alt="cursotalentotech">
+        <tr><td>Inteligencia Artificial (AI)</td></tr><tr><img src="Inteligencia Artificial (AI)" height="100" width="140px" alt="cursotalentotech">
+    </table>
+</body>
+</html>

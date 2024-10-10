@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(rgba(0, 0, 255, 0.979), 10%, rgba(83, 112, 240, 0.74));
+}
+
+.principalbox{
+              color:purple;
+              display: grid;
+              grid-template-columns: auto;
+              flex-direction: row;
+              justify-content: center;
+    
+}
+
+           h1{
+              color: rgb(0, 0, 0);
+              height: 1px;
+              padding-top: 70px;
+              padding-bottom: 70px;
+              margin: 1px;
+              border: 1px;
+
+            }
+
+          h2{
+             color: #1c0330cb;
+             background: linear-gradient(#5c4cf3, #8807f1);
+             border-radius: 1rem;
+             margin-right: 10rem;
+           }
+p{
+    color: rgb(0, 0, 0);
+    
+}

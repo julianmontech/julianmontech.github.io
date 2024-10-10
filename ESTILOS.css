@@ -1,0 +1,59 @@
+
+
+.elprimero {
+    color:chocolate
+}
+
+
+p {
+    color: black;
+}
+
+h1 { color:brown; margin-left:
+}
+
+h3 {color:blueviolet;
+}
+
+h4 {color:goldenrod; 
+}
+
+h5 {color:aquamarine;
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    padding: 25;
+    margin: 40;
+    border: 1px solid purple;
+    grid-template-columns: ;
+}
+
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.item{
+    width: 40%;
+    height: auto;
+    background-color: darkblue;
+}
+
+@media (max-width: 600px){
+ .caja{
+    flex-direction: row;
+}
+}
+
+@media (max-width: 600px){
+    .principalbox{
+       flex-direction: row;
+   }
+   }
+   
