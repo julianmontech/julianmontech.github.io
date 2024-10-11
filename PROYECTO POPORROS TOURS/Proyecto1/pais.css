@@ -1,0 +1,121 @@
+body {
+
+    background-image: url(nube.jpg);
+    
+     
+}
+
+.contenedor {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.izquierda {
+    
+    display: grid;
+    align-items: center;
+    text-align:justify;
+    height: 80vh;
+    text-align: center;
+    justify-items: center;
+  
+}
+
+.derecha {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.titulos {
+    font-size: 100PX;
+    padding-top: 0px;
+    margin: 10px;
+
+}
+.descripcion {
+    font-size: 20px;
+
+}
+
+img {
+    padding-bottom: 0px;
+}
+
+.contacto {
+    margin-top: 0px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Espacio entre los iconos */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margin */
+}
+
+.social-icons li {
+    font-size: 24px; /* Tamaño del icono */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333; /* Color del icono */
+    transition: color 0.3s; /* Efecto de transición */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Color al pasar el ratón */
+}
+
+.contenedorcon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+i {
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, .35);
+    transition: 0.5s ease;
+}
+
+.fa-youtube:hover {
+
+    background-color: red;
+    color: white;
+
+}
+
+.fa-facebook:hover {
+
+    background-color: rgb(68, 0, 255);
+    color: white;
+    
+}
+
+.fa-twitter:hover {
+
+    background-color: rgb(68, 0, 255);
+    color: white;
+    
+}
+
+.fa-tiktok:hover {
+
+    background-color: rgb(69, 4, 71);
+    color: white;
+    
+}
